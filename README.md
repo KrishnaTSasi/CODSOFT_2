@@ -49,11 +49,8 @@ This project focuses on detecting fraudulent credit card transactions using an i
   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
   ```
 
-# 🤖 6. **Model Building (No SMOTE)**
+# 🤖 6. **Model Building **
 
-* Use original class imbalance with:
-
-  * `class_weight='balanced'` to compensate for fraud rarity
 * Models to build:
 
   * **Logistic Regression**
