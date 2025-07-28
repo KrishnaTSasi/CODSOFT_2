@@ -101,17 +101,7 @@ While these accuracy scores appear impressive, they are **potentially misleading
 * The dataset is **highly imbalanced**, with very few fraudulent transactions compared to legitimate ones.
 * A naive model that predicts every transaction as "legitimate" would still achieve very high accuracy.
 
-### 📌 Why Accuracy Isn't Enough
-
-In fraud detection, we care more about:
-
-| Metric        | Description                                           |
-| ------------- | ----------------------------------------------------- |
-| **Precision** | How many of the predicted frauds are actually frauds? |
-| **Recall**    | How many actual frauds did the model catch?           |
-| **F1-score**  | Harmonic mean of Precision and Recall                 |
-
-
+ 
  ✅ Conclusion
 
 Even though all models achieved 99.48% accuracy, relying solely on accuracy in a fraud detection scenario is not recommended. Instead, focusing on **recall and F1-score** is essential to ensure that fraudulent transactions are properly identified.
